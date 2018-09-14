@@ -1,0 +1,72 @@
+
+header, #content, #banner, footer,  #learnings, #thesis {
+    display:flex;
+    width: 100%;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+header .logo img {
+    height: 32px;
+}
+
+header .logo .bold {
+    font-weight: bold;
+}
+
+header .logo span, header nav ul li {
+    display: inline-flex; 
+}
+
+header nav {
+    padding-right: 32px;
+}
+
+header nav ul li {
+    padding-left: 16px; 
+}
+
+/* CONTENT */
+
+#content, #headline {
+    flex-direction: column;
+}
+
+
+#banner img, #banner #headline,
+    #informations, #learnings, #thesis, footer {
+    padding-top: 32px;
+}
+
+/* BANNER SECTION */
+
+
+.padded-left {
+
+    padding-left: 24px;
+}
+
+.padded-right {
+
+    padding-right: 24px;
+}
+
+.padded-bottom {
+
+    padding-bottom: 32px;
+}
+
+.media {
+    width: 60%;
+    height: auto;
+}

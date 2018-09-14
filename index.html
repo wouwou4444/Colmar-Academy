@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Colmar Academy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./resources/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./resources/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
 
     <!-- header section -->
-    <header>
+    <header class="padded-left">
         <div class="logo">
             <img src="./resources/images/ic-logo.svg">
-            <span>COLMAR</span>
+            <span class="bold">COLMAR</span>
             <span>ACADEMY</span>
         </div>
 
@@ -22,17 +23,17 @@
             <ul>
                 <li>On campus</li>
                 <li>Online</li>
-                <li>for compagnies</li>
+                <li>For compagnies</li>
                 <li>Sign in</li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
-    <div class="content">
-        <div id="banner">
-            <img src="resources/images/banner.jpg">
-            <div id="headline">
+    <div id="content">
+        <div id="banner" class="padded-left">
+            <img src="resources/images/banner.jpg" class="media  padded-right">
+            <div id="headline" class="">
                 <h1>Learn something new everyday</h1>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
@@ -41,9 +42,9 @@
             </div>
         </div>
 
-        <div id="informations">
+        <div id="informations" class=" padded-bottom padded-left">
             <div class="large-column">
-                <img src="resources/images/information-main.jpg">
+                <img src="resources/images/information-main.jpg" class="media padded-right">
                 <h2>It doesn't hurt to keep practicing</h2>
                 <p>"Curibatur vitae libero in ipsum porttitor consequat.
                     Aliquam et commodo lectus, nec consequat neque.
@@ -86,7 +87,7 @@
             </div>
         </div>
 
-        <div id="learnings">
+        <div id="learnings" class="padded-bottom">
 
             <!-- Course Software -->
             <div class="course">
@@ -163,13 +164,13 @@
             </div>           
         </div>
 
-        <div id="thesis">
+        <div id="thesis" class="padded-bottom  padded-left">
             <div class="section-title">
                 <h2>Thesis exhibit</h2>
             </div>
             <div class="video-section">
                 <div class="large-column">
-                    <video controls>
+                    <video controls  class="media padded-left">
                         <source src="resources/videos/thesis.mp4">
                         Your browser can't read HTML5 video
                     </video>
